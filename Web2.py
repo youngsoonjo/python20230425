@@ -21,7 +21,7 @@ for post in posts:
     print("{0} , {1}".format(title, price))    
     result =f"매물:{title} 가격: {price} \n"
     f.write(result)
-
+f.close()
 # <div class="card-desc">
 #       <h2 class="card-title">나이키 신발 팝니다!</h2>
 #       <div class="card-price ">
